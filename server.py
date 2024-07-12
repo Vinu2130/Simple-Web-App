@@ -15,14 +15,11 @@ def hello_world():
 def import_page():
     return render_template("import.html")
 
-@app.route("/export",methods=['GET','POST'])
+@app.route("/export")
 def export_page():
-    if request.method == 'POST':
-        return "Nothing to post yet"
-    else:
-        with open('static/data/data.json') as f:
-            cities = json.load(f)
-        return render_template("export.html",cities=cities)
+    with open('static/data/data.json') as f:
+        cities = json.load(f)
+    return render_template("export.html",cities=cities)
 
 @app.route('/readJson', methods=['GET','POST'])
 def read_json():
