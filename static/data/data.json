@@ -1,19 +1,17 @@
-{
-    "cities": [
-        {
-            "city": "Secunderabad",
-            "district": "Hyderabad",
-            "state": "Telangana"
-        },
-        {
-            "city": "Chennai",
-            "district": "Chennai",
-            "state": "Tamil Nadu"
-        },
-        {
-            "city": "Amaravati",
-            "district": "Guntur",
-            "state": "Andhra Pradesh"
-        }
-    ]
-}
+[
+    {
+        "city": "Secunderabad",
+        "district": "Hyderabad",
+        "state": "Telangana"
+    },
+    {
+        "city": "Chennai",
+        "district": "Chennai",
+        "state": "Tamil Nadu"
+    },
+    {
+        "city": "Amaravati",
+        "district": "Guntur",
+        "state": "Andhra Pradesh"
+    }
+]

@@ -10,6 +10,16 @@
 <body>
     <h2>You are landed in an export page</h2>
     <a href="/home"><button>Home</button></a>
+
+    <hr>
+
+    <ul style="padding-left: 10px;">
+        {% for item in cities%}
+        <h3>{{item.city}} City</h3>
+        <li>district : {{item.district}}</li>
+        <li>state : {{item.state}}</li>
+        {%endfor%}
+    </ul>
 </body>
 
 </html>
